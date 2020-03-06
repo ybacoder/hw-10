@@ -1,7 +1,7 @@
 # JavaScript Homework - JavaScript and DOM Manipulation
 
 ## Background
-For this assignment, write code that will create a table dynamically based upon a [dataset we provide](StarterCode/static/js/data.js). We also need to allow our users to filter the table data for specific values. Languages for this assignment are: JavaScript, HTML, and CSS, and D3.js.
+For this assignment, write code that will create a table dynamically based upon a [dataset we provide](static/js/data.js). We also need to allow our users to filter the table data for specific values. Languages for this assignment are: JavaScript, HTML, and CSS, and D3.js.
 
 ## Your Task
 
@@ -19,7 +19,7 @@ For this assignment, write code that will create a table dynamically based upon 
 
 ### Level 1: Automatic Table and Date Search (Required)
 
-* Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
+* Create a basic HTML web page or use the [index.html](index.html) file provided (we recommend building your own custom page!).
 
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 
@@ -43,7 +43,7 @@ For this assignment, write code that will create a table dynamically based upon 
 
 ### Dataset
 
-* [UFO Sightings Data](StarterCode/static/js/data.js)
+* [UFO Sightings Data](static/js/data.js)
 
 - - -
 
