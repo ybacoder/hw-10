@@ -13,15 +13,15 @@ const handler = function () {
 
     let filterData = tableData
 
-    if (datetime) {console.log(datetime); filterData = filterData.filter(e => e.datetime == datetime)}
+    if (datetime) {filterData = filterData.filter(e => e.datetime == datetime)}
 
-    if (city) {console.log(city); filterData = filterData.filter(e => e.city == city)}
+    if (city) {filterData = filterData.filter(e => e.city == city)}
 
-    if (state) {console.log(state); filterData = filterData.filter(e => e.state == state)}
+    if (state) {filterData = filterData.filter(e => e.state == state)}
 
-    if (country) {console.log(country); filterData = filterData.filter(e => e.country == country)}
+    if (country) {filterData = filterData.filter(e => e.country == country)}
 
-    if (shape) {console.log(shape); filterData = filterData.filter(e => e.shape == shape)}
+    if (shape) {filterData = filterData.filter(e => e.shape == shape)}
     
     tbody.selectAll("*").remove()
 
