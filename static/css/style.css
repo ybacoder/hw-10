@@ -73,6 +73,10 @@ select {
   outline: none;
 }
 
+#table-area tr {
+  text-align: center;
+}
+
 #table-area th {
   text-align: center;
 }
